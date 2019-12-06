@@ -12,7 +12,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	
 	
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="0498bb43-52f2-4f1e-8d96-5e00cf1a8a41" >
-		<http:listener-connection host="0.0.0.0" port="8085" />
+		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="java-codeFlow" doc:id="778b3263-0cf6-4f06-9dad-9a3184793f2d" >
 		<http:listener doc:name="Listener" doc:id="102915a1-3495-489d-9221-addf5afba83f" config-ref="HTTP_Listener_config" path="/java"/>
